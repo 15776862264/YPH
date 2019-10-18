@@ -1,0 +1,684 @@
+body{
+    background-image: url(../imgs/img/index/bg_da.png);
+    .huojian{
+        position: fixed;
+        right:50px;
+        bottom:80px;
+        z-index: 88;
+        cursor: pointer;
+        display: none;
+    }
+header{
+    background:white;
+
+//header 第一个盒子 
+.box{
+    height:35px;
+    line-height: 35px;
+    // background:yellow;   //背景色可以删除的
+    .l{
+        .li_1{
+            float:left;
+            margin:0 10px;
+            color:#757575;
+            .a_3:hover{
+             color:black;
+            }
+        }
+        .li3{
+            margin:10px 10px;
+        }
+    }
+    .r{
+        .r_li{
+            float:left;
+            margin: 0 11px;
+            color:#757575;
+            .r_a:hover{
+                color:black;
+            }
+        }
+        .li1{
+            .r1_a{
+                color:#4b89db;
+            }
+            .r1_a:hover{
+                color:#4b89db;
+            }
+        }
+    }
+    
+}
+// header 里面第二个盒子 
+.box1{
+    height:106px;
+    //background:pink;
+    position: relative;
+    padding:0 20px 0 0 ;
+    h1{
+        position:absolute;
+        left:0;
+        top:0;
+    }
+    form{
+        position: absolute;
+        left:543px;
+        top:43px;
+        
+        .text{
+            width:275px;
+            height:41px;
+            border:2px solid #f00582;
+            box-sizing: border-box;
+            padding:0 0 0 10px;
+        }
+        .button{
+            width: 96px;
+            height:41px;
+            background:#f00582;
+            position: absolute;
+            left:275px;
+            top:0;
+            cursor: pointer;
+            color:floralwhite;
+        }
+    }
+}
+        .ul{
+            width:280px;
+            height:77px;
+            //background:gray;
+            position: absolute;
+            right:0;
+            top:19px;
+            
+          .li_r{
+              float:left;
+
+          }
+          .li_r2{
+            padding:0 43px;
+          }
+        }
+    }
+// nav 一级菜单
+nav{
+            height:378px;
+            position: relative;
+        .nav_div{  
+                background:#f00582;
+                position: absolute;
+                top:0;
+                left:0;
+                position: relative;
+                height:42px;
+            .nav_ul{
+                height:42px;
+                line-height: 42px;
+                .nav_li{
+                    width:170px;
+                    text-align:center;
+                    float:left;
+                    .nav_a{
+                        cursor: pointer;
+                        color:wheat;
+                        font-size: 17px;
+                    }
+                }
+                //二级菜单  第一个 li 
+                .nav_li_1{   // 这是一级菜单的第一个li
+                    background:black;
+                    opacity: .4;
+                     margin:0 4px 0 0;
+                    width:170px;
+                    height:44px;
+                    color:white;
+                    }
+                    .nav_ul_2{   
+                        width:170px;
+                        height:336px;                    //创建二级菜单ul
+                       
+                        
+                        .nav_li_2{
+
+                            width:170px;
+                            height:42px;
+                            background:#fbeaf4;
+                           
+                       
+                            .nav_a_2{
+                                float:left;
+                                padding: 0 0 0 10px;  
+                                color:black;                              
+                            }
+                        }
+                        .nav_li_2:hover{
+                            background:#c55311ef;
+                            opacity: .8;
+                            .nav_a_2{
+                                    color:black;
+                            }
+                            
+                        }
+                    }
+                }
+                                         //二级菜单有和文体就是文字
+                //  这是一级菜单  鼠标移上
+                .nav_li999:hover{
+                    background:black;
+                    opacity: .6;
+                    .nav_a{
+                      color:white;
+                     }
+                }
+            }
+        }
+
+        .slider_1{
+            width:720px;
+            height:334px;
+            position: absolute;
+            top:43px;
+            left:245px;
+        .slider{
+            
+            height:334px;
+            
+            
+            position: relative;
+            .list{
+                width:720px;
+                height:334px;
+                position: absolute;
+                top:0;
+                left:0;
+                .list_li{
+                    position: absolute;
+                    opacity: 0;
+                    transition: opacity .3s;
+                }
+                .opc{
+                    opacity: 1;
+                     z-index: 5;
+                }
+            }
+            // 左右按钮
+            .l_g{
+                width:30px;
+                height:50px;
+                position: absolute;
+                top:45%;
+                font-size: 50px;
+                z-index: 100;
+                opacity: .8;
+                cursor: pointer;
+                
+                color:#ccc;
+
+            }
+            .left{
+                position: absolute;
+                left:20px;
+            }
+            .right{
+                position: absolute;
+                left:680px;
+            }
+            //点点切换
+            .butters_1{
+                width:100px;
+                height:20px;
+                position: absolute;
+                bottom:40px;
+                left:45%;
+            }
+            .butters{
+                width:100px;
+                height:20px;
+                z-index: 99;
+                position: relative;
+                .butter{
+                    width:20px;
+                    height:20px;
+                    border-radius: 50%;
+                    border:1px solid #ccc;
+                    background:#ccc;
+                    margin-left: 10px;
+                    cursor: pointer;
+                    &:hover{
+                        background:white;
+                    }
+                }
+            }
+        }
+        }
+        .rt_tu{
+            width: 300px;
+            height:300px;
+            position: absolute;
+            top:43px;
+            left:961px;
+           .rt_a{
+               display: inline-block;
+               width:310px;
+               height:155px;
+               position: absolute;
+               top:175px;
+               left:4px;
+               z-index: 2;
+               cursor: pointer;
+              
+           }
+           .rt_div{
+                
+           
+           .rt_a2{
+                display: inline-block;
+                width:27px;
+                height:29px;
+                position: absolute;
+                top:111px;
+                left:78px;
+                z-index: 10;
+                cursor: pointer;
+                &:hover{
+                    background:black;
+                    opacity: .2;
+                }
+               
+                }
+           }
+
+            }
+        }  
+// 中间文字部分  
+.div_wz{
+    height:135px;
+   
+    margin-top:17px;
+    .div_wz1{
+        height:50px;
+        line-height: 50px;
+        background:#fef1e2;
+        border:2px solid #feddda;
+        padding-left:10px;
+        color:#9c9c9c;
+        font-size: 15px;
+    }
+    .div_wz0{
+        height:85px;
+        position: relative;
+        
+        padding-top:22px;
+        .div_wz2{
+            width:400px;
+            height:50px;
+            line-height: 50px;
+            font-weight: 100;
+            .color_wz{
+                color:#f8b2c7;
+                font-size:16px;
+            }
+           .pad{
+               padding-left:30px;
+           }
+           
+    }
+        .div_wz3{
+        position: absolute;
+            top:36px;
+            left:990px;
+        width:200px;
+        height:50px;
+        line-height: 50px;
+        font-size:16px; 
+        color:#f8b2c7;
+    }
+   
+   
+}
+
+  
+    
+
+     
+}
+//图文详情介绍
+.dl{
+    height:910px;
+    .rpd{
+        margin-right:15px;
+        
+    }
+    .dl_1{
+        width:590px;
+        height:290px;
+        border:1px solid #ccc;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 15px;;
+        &:hover{
+            border:1px solid red;;
+        }
+        .div_dd{
+            width:290px;
+            height:82px;
+            line-height: 82px;
+            // background:yellow;
+        }
+        .div_ip{
+            width:290px;
+            height:56px;
+            .tu{
+                padding-top:29px;
+            }
+            .zi{
+                padding-top:38px;
+                padding-left:10px;
+                color:#fbacc2;
+                font-size:15px;
+                
+            }
+        }
+        .div_2sp{
+            width:290px;
+            height:50px;
+            // background:blueviolet;
+            padding-top:8px;
+           .color_num{
+               color:#ff435e;
+           }
+        }
+        .div_div2{
+            width:290px;
+            height:54px;
+            background:#ff435e;
+            position: absolute;
+            bottom:0;
+            right:0;
+            .div_3{
+                width:290px;
+                height:54px;
+                position: relative;
+                .div2_1_1{
+                    height:54px;
+                    line-height: 54px;
+                    color:blue;
+                    font-size:30px;
+
+                }
+                .div2_1_2{
+                    width:50px;
+                    height:54px;
+                    padding-top:20px;
+                    padding-left:10px;
+                    color:white;
+                    .spn{
+                        color:#fef181;
+                        text-decoration: line-through;
+                    }
+                }
+                .div2_1_3{
+                    width:70px;
+                    height:54px;
+                    line-height: 50px;
+                    font-size:16px;
+                    color:#ff435e;
+                    background:#fef081;
+                    
+                }
+                .beform{
+                    width:0px;
+                    height:0px;
+                    border:28px solid transparent;
+                    border-right:14px solid #fef081;
+                    
+
+                }
+        }
+            }
+                }
+            }
+
+ //直播优惠商品           
+.zhibo{
+                height:80px;
+                line-height:80px;
+             // background:red;  //背景色可以删除
+                margin-top: 20px;
+               
+
+                .zhibo_h2{
+                    height: 100%;
+                    line-height: 80px;
+                    font-weight: 100;
+                    font-size:20px;
+                }
+                .zhibo_he{
+                     height:30px;
+                     width:70px;
+                     line-height: 30px;
+                     padding-top:26px;
+                     margin-left:30px;
+                
+                .zhibo_spnum{
+                  text-align: center;
+                    width:70px;
+                    height:30px;
+                    line-height: 30px;
+                    border-radius: 15px;
+                    background:#5dcac5;
+                    color:white;
+                    font-size:20px;
+                }
+                    .zhibo_gd{
+                        &:hover{   //鼠标移上  a的颜色 不变这个没完成
+                            color:black;
+                        }
+                    }
+
+            }
+        
+        }
+//优惠商品导航栏
+.youhui{
+    height:102px;
+    background:white;
+    .youhui_dh1{
+        height:55px;
+        line-height: 55px;
+        .dh1_li{
+            padding-left:20px;
+        }
+    }
+    .youhui_dh2{
+        height:45px;
+        line-height: 45px;
+        border:2px solid #ccc;
+
+      
+       
+    }
+    .dh2_li1{
+        border-top:2px solid red;
+        margin-top:-2px;
+        color:red;
+    }
+    .dh2_li{
+        padding: 0 24px;
+        border-right: 2px solid #ccc;
+        
+        &:hover{
+           border-top:2px solid red;
+            margin-top:-2px;
+            color:red;
+            }
+        }
+
+    .dh2_div{
+            display:inline-block;
+            margin-right: 10px;
+            font-size:17px;
+            .jian:hover{
+                cursor: pointer;
+            }
+            .jia:hover{
+                cursor: pointer;
+            }
+            .dh2_span{
+                padding: 0 10px;
+                .dh2_number{
+                    color:red;
+                }
+            }
+    }
+}
+//领劵优惠直播商品详情
+.yhxq_footer{
+    height:950px;
+    .kong{
+        margin-right:10px;
+    }
+    .xia{
+        margin-bottom:10px;
+    }
+    .yhxq{
+        width:290px;
+        height:400px;
+        position: relative;
+        border:1px solid transparent;
+        
+        &:hover{
+            border:1px solid red;
+
+        }
+        .yhxq_1{
+            width:290px;
+            height:30px;
+            line-height: 30px;
+            padding-top:10px;
+            .yhxq_1_1{
+                color:red;
+            }
+            .yhxq_1_2{
+                color:red;
+                font-size: 26px;
+            }
+            .yhxq_1_3{
+                color:red;
+                
+                .yhxq_1_3_1{
+                    color:#ccc;
+                    text-decoration: line-through;
+                    padding-left: 8px;
+                }
+            }
+            .yhxq_1_4{
+                padding-right: 14px;
+            }
+
+        }
+        .yhxq_2{
+            position: absolute;
+            bottom:5px;
+            right:5px;
+        }
+    }
+}
+
+// 页数
+.yeshu{
+    height:146px;
+    
+    text-align: center;
+    position: relative;
+    .yeshu_ul{
+        height:40px;
+        position: absolute;
+        top:44px;
+        left:390px;
+
+        
+        }
+        .yesh_li{
+            height:40px;
+            width:50px;
+            line-height: 40px;
+            margin-left:10px;
+            background:white;
+            border:1px solid transparent;
+            //这是盒子阴影
+            box-shadow:-1 -1 1px #000;
+            box-shadow:-2 -3 1px #000;
+            box-shadow:-2 -3 1px #000;
+            box-shadow:-2 -3 1px #000;
+            &:hover{
+                background:red;
+                .yeshu_a{
+                    color:wheat;
+                }
+            }
+           
+            .yeshu_a{
+                display: inline-block;
+                width:50px;
+                height:40px;
+                color:black;
+                font-size: 16px;
+               
+               
+
+
+            }
+        }
+        .yeshu_li_1{
+            background:red;
+    }
+}
+
+// 页尾
+footer{
+    height:210px;
+    width:100%;
+    background:#373737;
+    .ft_div{
+        height:102px;
+        .ft_div2{
+            height:102px;
+            .ft_div_1{
+                padding-left:243px;
+                
+            }
+            .ft_div_2{
+                padding:72px 0 0 36px;
+                color:white;
+                font-size:20px;
+            }
+
+        }
+        .ft_div3{
+            
+            height:50px;
+         
+            .ft_div3_1{
+                padding-left:187px;
+                padding-top:39px;
+                font-size:20px;
+                color:#a2a2a2;
+
+                .ft_div3_2:hover{
+                    color:#a2a2a2;
+                }
+                .ft_div3_3{
+                    color:#8096b4;
+                    &:hover{
+                        color:#8096b4;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+

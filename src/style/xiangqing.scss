@@ -1,0 +1,182 @@
+body{
+    background-image: url(../imgs/img/index/bg_da.png);
+
+
+header{
+    background:white;
+
+
+//header 第一个盒子 
+.box{
+    height:35px;
+    line-height: 35px;
+    // background:yellow;   //背景色可以删除的
+    .l{
+        .li_1{
+            float:left;
+            margin:0 10px;
+            color:#757575;
+            .a_3:hover{
+             color:black;
+            }
+        }
+        .li3{
+            margin:10px 10px;
+        }
+    }
+    .r{
+        .r_li{
+            float:left;
+            margin: 0 11px;
+            color:#757575;
+            .r_a:hover{
+                color:black;
+            }
+        }
+        .li1{
+            .r1_a{
+                color:#4b89db;
+            }
+            .r1_a:hover{
+                color:#4b89db;
+            }
+        }
+    }
+    
+}
+// header 里面第二个盒子 
+.box1{
+    height:106px;
+    //background:pink;
+    position: relative;
+    padding:0 20px 0 0 ;
+    h1{
+        position:absolute;
+        left:0;
+        top:0;
+    }
+    form{
+        position: absolute;
+        left:543px;
+        top:43px;
+        
+        .text{
+            width:275px;
+            height:41px;
+            border:2px solid #f00582;
+            box-sizing: border-box;
+            padding:0 0 0 10px;
+        }
+        .button{
+            width: 96px;
+            height:41px;
+            background:#f00582;
+            position: absolute;
+            left:275px;
+            top:0;
+            cursor: pointer;
+            color:floralwhite;
+        }
+    }
+}
+        .ul{
+            width:280px;
+            height:77px;
+            //background:gray;
+            position: absolute;
+            right:0;
+            top:19px;
+            
+          .li_r{
+              float:left;
+
+          }
+          .li_r2{
+            padding:0 43px;
+          }
+        }
+    }
+// nav 一级菜单
+nav{
+            height:44px;
+            position: relative;
+        .nav_div{  
+                background:#f00582;
+                position: absolute;
+                top:0;
+                left:0;
+                position: relative;
+                height:42px;
+            .nav_ul{
+                height:42px;
+                line-height: 42px;
+                .nav_li{
+                    width:170px;
+                    text-align:center;
+                    float:left;
+                    &:hover{
+                        background:black;
+                        opacity: .6;
+                    }
+                    .nav_a{
+                        cursor: pointer;
+                        color:wheat;
+                        font-size: 17px;
+                    }
+                }}}}
+                .box{
+                    height:900px;
+                
+                    
+                
+                    
+                
+                    .left{
+                        width:300px;
+                        height:300px;
+                        position: relative;
+                        margin-left:20px;
+                        .box_1{
+                            width:100px;
+                            height:100px;
+                            opacity: .3;
+                            background: black;
+                            position: absolute;
+                            top:0;
+                            left:0;
+                           
+                        }
+                        .box_2{
+                            position: absolute;
+                            left:0;
+                            top:0;
+                            background: violet;
+                            opacity: 0;
+                            width:100%;
+                            height:100%;
+                            overflow: hidden;
+                        }
+                    }
+                
+                
+                    .right{
+                        width:300px;
+                        height:300px;
+                        border:2px solid #ccc;
+                        // 这个地址要改啊
+                        background-image: url(../imgs/img/big/b1.jpg);
+                        background-size:900px 900px; 
+                        margin-left:30px;
+                        position: absolute;
+                        top:200px;
+                        left:400px;
+                        }
+                    
+                
+                
+                
+                }// 这是box的尾}
+                
+
+    
+            } 
